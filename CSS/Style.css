@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    width: 600;
+}
+header{
+    display: block;
+    line-height: 1.6;
+    background-color: blue;
+    text-align: right;
+}
+
+img{
+    margin-right: 0.75rem;
+}
