@@ -2,15 +2,16 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    width: 600;
-}
-header{
-    display: block;
-    line-height: 1.6;
-    background-color: blue;
-    text-align: right;
 }
 
-img{
-    margin-right: 0.75rem;
+div {
+    height: 100%;
+    border: 2rem;
 }
+
+ul {
+    list-style-image: url(../Images/dashboard-76-32.png);
+    font-size: 2rem;
+}
+
+
