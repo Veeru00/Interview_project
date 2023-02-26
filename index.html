@@ -14,33 +14,63 @@
     <header>
         <div>
             <ul id="list">
-                <p id="list_name">4AM Demand</p>
+                <p id="list_name">
+                    <img src="Images/4AM Demand.png" alt="4AM logo" id="list_image">4AM Demand</p>
                 <li>
                     <a href="index.html" id="elements">
                         Dashboard</a>
                 </li>
                 <li>
-                    <a href="index.html" id="elements"></a>
+                    <a href="index.html" id="revenue">Revenue plannig</a>
                 </li>
                 <li>
-                    <a href="index.html" id="elements"></a>
+                    <a href="index.html" id="budgets">Budget&amp;Campaigns</a>
                 </li>
                 <li>
-                    <a href="index.html" id="elements"></a>
+                    <a href="index.html" id="reporting">Reporting</a>
                 </li>
                 <li>
-                    <a href="index.html" id="elements"></a>
+                    <a href="index.html" id="coaching">Coaching</a>
                 </li>
             </ul>
         </div>
+        <div id="header">
+            <a href="index.html">
+                <img src="Images/Question_Mark.svg" alt="question" id="help">
+            </a>
+            <a href="index.html">
+                <img src="Images/Notification_icon.svg" alt="notifications" id="help">
+            </a>
+            <a href="Profile.html">
+                <img src="Images/Profile_icon.png" alt="profile">
+            </a>
+        </div>
     </header>
+    <main>
         <article>
             <div>
-                <p>Budget and Campaign Planning</p>
+                <p id="budget">Budget and Campaign Planning</p>
+                <p>
+                    <input type="number" name="year" id="year"
+                    min="1999" max="2022" step="1" value="2021" required>
+                </p>
+                <p>
+                    <select name="campaign" id="planning">
+                        <option value="marketing" selected>Marketing</option>
+                        <option value="events">Events</option>
+                        <option value="email based">Email-Based</option>
+                        <option value="advertising">Advertising</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </p>
             </div>
             <div>
                 <p>Start with new budget</p>
+                <div>
+                    <p>Create New budget</p>
+                </div>
             </div>
+            
         </article>
     </main>
 </body>
